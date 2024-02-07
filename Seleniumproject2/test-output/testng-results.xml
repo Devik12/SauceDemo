@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-07T20:49:48 IST" name="Default suite" finished-at="2024-02-07T20:50:05 IST" duration-ms="16666">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T20:49:48 IST" name="Default test" finished-at="2024-02-07T20:50:05 IST" duration-ms="16666">
+      <class name="sauceDemo.SauceDemoTest">
+        <test-method signature="open_loginpage()[pri:1, instance:sauceDemo.SauceDemoTest@3c291aad]" started-at="2024-02-07T20:49:48 IST" name="open_loginpage" finished-at="2024-02-07T20:49:49 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_loginpage -->
+        <test-method signature="login_with_invalid_credentials(java.lang.String,java.lang.String)[pri:2, instance:sauceDemo.SauceDemoTest@3c291aad]" started-at="2024-02-07T20:49:49 IST" name="login_with_invalid_credentials" data-provider="dp" finished-at="2024-02-07T20:49:52 IST" duration-ms="2264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_invalid_credentials -->
+        <test-method signature="login_with_invalid_credentials(java.lang.String,java.lang.String)[pri:2, instance:sauceDemo.SauceDemoTest@3c291aad]" started-at="2024-02-07T20:49:52 IST" name="login_with_invalid_credentials" data-provider="dp" finished-at="2024-02-07T20:49:54 IST" duration-ms="2194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_invalid_credentials -->
+        <test-method signature="login_with_invalid_credentials(java.lang.String,java.lang.String)[pri:2, instance:sauceDemo.SauceDemoTest@3c291aad]" started-at="2024-02-07T20:49:54 IST" name="login_with_invalid_credentials" data-provider="dp" finished-at="2024-02-07T20:49:56 IST" duration-ms="2182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret@sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_invalid_credentials -->
+        <test-method signature="login_with_invalid_credentials(java.lang.String,java.lang.String)[pri:2, instance:sauceDemo.SauceDemoTest@3c291aad]" started-at="2024-02-07T20:49:56 IST" name="login_with_invalid_credentials" data-provider="dp" finished-at="2024-02-07T20:49:58 IST" duration-ms="2191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_invalid_credentials -->
+        <test-method signature="login_with_invalid_credentials(java.lang.String,java.lang.String)[pri:2, instance:sauceDemo.SauceDemoTest@3c291aad]" started-at="2024-02-07T20:49:58 IST" name="login_with_invalid_credentials" data-provider="dp" finished-at="2024-02-07T20:50:00 IST" duration-ms="2163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret@_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_invalid_credentials -->
+        <test-method signature="login_with_invalid_credentials(java.lang.String,java.lang.String)[pri:2, instance:sauceDemo.SauceDemoTest@3c291aad]" started-at="2024-02-07T20:50:00 IST" name="login_with_invalid_credentials" data-provider="dp" finished-at="2024-02-07T20:50:03 IST" duration-ms="2171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_invalid_credentials -->
+        <test-method signature="login_with_valid_credentials()[pri:3, instance:sauceDemo.SauceDemoTest@3c291aad]" started-at="2024-02-07T20:50:03 IST" name="login_with_valid_credentials" finished-at="2024-02-07T20:50:05 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_credentials -->
+        <test-method signature="select_random_items()[pri:4, instance:sauceDemo.SauceDemoTest@3c291aad]" started-at="2024-02-07T20:50:05 IST" name="select_random_items" finished-at="2024-02-07T20:50:05 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_random_items -->
+      </class> <!-- sauceDemo.SauceDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
